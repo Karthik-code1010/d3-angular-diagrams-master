@@ -5,6 +5,7 @@ import { DepartmentComponent } from './departments/department/department.compone
 import { DepartmentlistComponent } from './departments/departmentlist/departmentlist.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeelistComponent } from './employees/employeelist/employeelist.component';
+import { PiedynamicComponent } from './piedynamic/piedynamic.component';
 
 const routes: Routes = [
   {path:"", component: DashboardComponent},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: "department", component: DepartmentComponent},
   {path: "employee", component: EmployeeComponent},
   {path: "departmentlist", component: DepartmentlistComponent},
-  {path: "employeelist", component: EmployeelistComponent}
+  {path: "employeelist", component: EmployeelistComponent}, //PiedynamicComponent
+  {path: "pie-dynamic", component: PiedynamicComponent},
 
 ];
 

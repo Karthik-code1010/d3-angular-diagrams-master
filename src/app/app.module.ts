@@ -12,6 +12,7 @@ import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeelistComponent } from './employees/employeelist/employeelist.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DepartmentService } from './services/department.service';
+import { PiedynamicComponent } from './piedynamic/piedynamic.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DepartmentService } from './services/department.service';
     DepartmentComponent,
     DepartmentlistComponent,
     EmployeeComponent,
-    EmployeelistComponent
+    EmployeelistComponent,
+    PiedynamicComponent
   ],
   imports: [
     BrowserModule,
